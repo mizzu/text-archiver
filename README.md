@@ -1,16 +1,19 @@
 # text-archiver
 
 # Running
-# Compile from make
+ Compile from make
+ Run with tarc
 
-# ./tarc -c "target" "file1" "file2" "file..."
-# archives files to target as one file
 
-# ./tarc -x "source archive"
-# uncompresses files from source
+# Commands
+ ./tarc -c "target" "file1" "file2" "file..."
+ archives files to target as one file
 
-# ./tarc -p "name prefix" "source archive"
-# will search for files with "name prefix" in "source archive", listing name and size
-# if multiple prefixes are found, all are printed.
+ ./tarc -x "source archive"
+ uncompresses files from source
 
-# could potentially archive more than just text files
+ ./tarc -p "name prefix" "source archive"
+ will search for files with "name prefix" in "source archive", listing name and size
+ if multiple prefixes are found, all are printed.
+
+ could potentially archive more than just text files
